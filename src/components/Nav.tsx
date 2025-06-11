@@ -1,7 +1,10 @@
 import { useLocation } from "@solidjs/router";
+import liff from "@line/liff";
+
 
 export default function Nav() {
   const location = useLocation();
+  let lineProfile = async () => await liff.getProfile()
   const active = (path: string) =>
     path == location.pathname ? "border-sky-600" : "border-transparent hover:border-sky-600";
   return (
