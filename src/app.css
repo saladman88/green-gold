@@ -1,5 +1,7 @@
 @import "tailwindcss";
-@plugin "daisyui";
+ @plugin "daisyui" {
+   themes: luxury --default;
+ }
 
 :root {
   --background-rgb: 214, 219, 220;
