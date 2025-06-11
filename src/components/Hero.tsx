@@ -25,7 +25,8 @@ export default function Hero() {
                 <label class="label">Password</label>
                 <input type="password" class="input" placeholder="Password" />
                 <div><a class="link link-hover">Forgot password?</a></div>
-                <button class="btn btn-neutral mt-4" on:click={()=>liff.login()}>Login</button>
+                <button class="btn btn-neutral mt-4">Login</button>
+                <button class="btn btn-neutral mt-4" on:click={()=>liff.login()}>Login with LINE</button>
                 </fieldset>
             </div>
             </div>
