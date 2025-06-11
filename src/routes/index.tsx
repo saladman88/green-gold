@@ -1,4 +1,5 @@
 import { A } from "@solidjs/router";
+import Hero from "~/components/Hero";
 import Counter from "~/components/Counter";
 import Productcard from "~/components/Productcard";
 import liff from "@line/liff";
@@ -11,7 +12,7 @@ export default function Home() {
   return (
 
     <main class="text-center mx-auto p-4">
-      
+      <Hero/>
     </main>
   );
 }
